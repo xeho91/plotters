@@ -72,6 +72,7 @@ Useful to specify the position of the series label.
 
 See [`ChartContext::configure_series_labels()`] for more information and examples.
 */
+#[derive(Clone, Debug, PartialEq)]
 pub enum SeriesLabelPosition {
     /// Places the series label at the upper left
     UpperLeft,
